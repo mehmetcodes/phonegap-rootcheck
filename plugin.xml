@@ -31,6 +31,6 @@
             </feature>
         </config-file>
         <source-file src="src/android/RootCheckPlugin.java" target-dir="src/io/github/mehmetcodes/cordovaplugins/rootcheck"/>
-        <source-file src="src/android/ExecShell.java" target-dir="src/io/github/mehmetcodes/cordovaplugins"/>
+        <source-file src="src/android/ExecShell.java" target-dir="src/io/github/mehmetcodes/cordovaplugins/rootcheck"/>
     </platform>
 </plugin>
