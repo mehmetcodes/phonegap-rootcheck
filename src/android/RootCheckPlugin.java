@@ -17,7 +17,7 @@ import android.util.Log;
 /**
  * Created by Mehmet Yilmaz .
  */
-public class RootCheckPlugin extends CordovaPlugin {  {
+public class RootCheckPlugin extends CordovaPlugin {  
     private static String LOG_TAG = RootCheckPlugin.class.getName();
     public static final String ACTION_ROOTCHECK = "RootCheck"; 
 
@@ -29,7 +29,9 @@ public class RootCheckPlugin extends CordovaPlugin {  {
         }catch(Exception e){
             callback.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, "Error"));
             Log.v(LOG_TAG,Log.getStackTraceString(e));
+            return false;
         }
+        return true;
     }
     //Add debuggable check
     private static boolean isDebuggable(Context ctx){
