@@ -1,4 +1,4 @@
-package io.github.mehmetcodes.cordovaplugins;
+package io.github.mehmetcodes.cordovaplugins.rootcheck;
 
 import io.github.mehmetcodes.cordovaplugins.ExecShell.SHELL_CMD;
 import org.apache.cordova.api.CallbackContext;
