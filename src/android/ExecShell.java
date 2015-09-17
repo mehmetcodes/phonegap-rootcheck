@@ -1,4 +1,4 @@
-package io.github.mehmetcodes.cordovaplugins;
+package io.github.mehmetcodes.cordovaplugins.rootcheck;
 
 import android.util.Log;
 
