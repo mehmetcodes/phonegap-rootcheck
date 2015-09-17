@@ -23,7 +23,13 @@ public class RootCheckPlugin extends CordovaPlugin {  {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
- 
+        try{
+            result = RootCheckPlugin.isDeviceRooted(getApplicationContext());
+            callback.sendPluginResult(new PluginResult(PluginResult.Status.OK, result));
+        }catch(Exception e){
+            callback.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, "Error"));
+            Log.v(LOG_TAG,Log.getStackTraceString(e));
+        }
     }
     //Add debuggable check
     private static boolean isDebuggable(Context ctx){
