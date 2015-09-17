@@ -1,16 +1,24 @@
 package io.github.mehmetcodes.cordovaplugins;
 
+import io.github.mehmetcodes.cordovaplugins.ExecShell.SHELL_CMD;
 import org.apache.cordova.api.CallbackContext;
 import org.apache.cordova.api.CordovaPlugin;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
+import android.content.pm.ApplicationInfo;
+import java.io.*;
+import java.util.ArrayList;
+import android.content.Context;
+import android.content.pm.PackageManager;
+import android.util.Log;
+
 
 /**
  * Created by Mehmet Yilmaz .
  */
 public class RootCheckPlugin extends CordovaPlugin {  {
-    private static String LOG_TAG = RootCheck.class.getName();
+    private static String LOG_TAG = RootCheckPlugin.class.getName();
     public static final String ACTION_ROOTCHECK = "RootCheck"; 
 
     @Override
