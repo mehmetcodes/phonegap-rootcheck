@@ -30,7 +30,7 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <source-file src="src/android/RootCheck.java" target-dir="src/io/github/mehmetcodes/cordovaplugins/rootcheck"/>
+        <source-file src="src/android/RootCheckPlugin.java" target-dir="src/io/github/mehmetcodes/cordovaplugins/rootcheck"/>
         <source-file src="src/android/ExecShell.java" target-dir="src/io/github/mehmetcodes/cordovaplugins"/>
     </platform>
 </plugin>
