@@ -8,7 +8,7 @@
     <engines>
         <engine name="cordova" version=">=3.0.0" />
     </engines>
-    <js-module src="www/rootdetection.js" name="RootDetection">
+    <js-module src="www/rootdetection.js" name="rootchecker">
         <clobbers target="RootDetection" />
     </js-module>
     <platform name="ios">
