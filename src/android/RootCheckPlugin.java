@@ -55,7 +55,7 @@ public class RootCheckPlugin extends CordovaPlugin {
 
     public static boolean isDeviceRooted(Context ctx) {
         //Add code to check for if this is in release
-        if (!RootCheck.isDebuggable(ctx) ) {
+        if (!RootCheckPlugin.isDebuggable(ctx) ) {
             Log.v(LOG_TAG,"This is not debuggable");
             if (checkTags()) {
 
