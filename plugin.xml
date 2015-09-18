@@ -9,7 +9,7 @@
         <engine name="cordova" version=">=3.0.0" />
     </engines>
     <js-module src="www/rootdetection.js" name="RootDetection">
-        <clobbers target="rootdetection" />
+        <clobbers target="RootDetection" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">

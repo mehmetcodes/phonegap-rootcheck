@@ -8,4 +8,6 @@ RootDetection.prototype.RootCheck = function (successCallback, failureCallback, 
     exec(successCallback, failureCallback, "RootCheckPlugin", "Rootcheck", [resultType]);
 };
 
-module.exports = new RootDetection();
+
+var rootchecker = new RootDetection();
+module.exports = rootchecker;
