@@ -27,7 +27,11 @@ public class RootCheckPlugin extends CordovaPlugin {
         boolean result = true;
         try{
             result = RootCheckPlugin.isDeviceRooted(this.cordova.getActivity().getApplicationContext());
-            callbackContext.success(result);
+            if(result){
+                callbackContext.success("true");
+            }else{
+                callbackContext.success("false");
+            }
         }catch(Exception e){
             callbackContext.error("Error");
             Log.v(LOG_TAG,Log.getStackTraceString(e));
