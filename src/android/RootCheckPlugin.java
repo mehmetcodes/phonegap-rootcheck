@@ -23,6 +23,7 @@ public class RootCheckPlugin extends CordovaPlugin {
 
     @Override
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
+        boolean result = true;
         try{
             result = RootCheckPlugin.isDeviceRooted(getApplicationContext());
             callback.sendPluginResult(new PluginResult(PluginResult.Status.OK, result));

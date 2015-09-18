@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 
 /**
- * Created by Mehmet Emre Yilmaz.
+ * Created by Mehmet Yilmaz.
  */
 class ExecShell {
 
