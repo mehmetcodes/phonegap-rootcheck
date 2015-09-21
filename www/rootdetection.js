@@ -11,3 +11,4 @@ RootDetection.prototype.RootCheck = function (successCallback, failureCallback, 
 
 var rootchecker = new RootDetection();
 module.exports = rootchecker;
+console.log("RD Plugin available");
