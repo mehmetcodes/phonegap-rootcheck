@@ -9,6 +9,14 @@ RootDetection.prototype.RootCheck = function (successCallback, failureCallback, 
 };
 
 
-var rootchecker = new RootDetection();
-module.exports = rootchecker;
+if(!window.plugins){
+	window.plugins = {};
+}
+
+if(!window.plugins.RootDetection){
+	window.plugins.RootDetection = new RootDetection();
+}  
+
+var RootDetection = new RootDetection();
+module.exports = RootDetection;
 console.log("RD Plugin available");
