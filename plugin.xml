@@ -25,7 +25,7 @@
     </platform>
     <platform name="android">
      <config-file target="config.xml" parent="/*">
-            <feature name="RootDetection">
+            <feature name="RootCheckPlugin">
                 <param name="android-package" value="io.github.mehmetcodes.cordovaplugins.rootcheck.RootCheckPlugin" />
                 <param name="onload" value="true" />
             </feature>
