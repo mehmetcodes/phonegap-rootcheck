@@ -1,3 +1,0 @@
-[submodule "src/ios/security-check"]
-	path = src/ios/security-check
-	url = https://github.com/project-imas/security-check.git
