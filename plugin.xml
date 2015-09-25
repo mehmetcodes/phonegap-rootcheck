@@ -19,8 +19,8 @@
             </feature>
         </config-file>
         <header-file src="src/ios/SecurityCheck/debugCheck.h" />
-        <header-file src="src/ios/RootcheckPlugin.h" />
-        <source-file src="src/ios/RootcheckPlugin.m" />
+        <header-file src="src/ios/RootCheckPlugin.h" />
+        <source-file src="src/ios/RootCheckPlugin.m" />
         <header-file src="src/ios/SecurityCheck/fileCheck.h" />
         <header-file src="src/ios/SecurityCheck/forkCheck.h" />
         <header-file src="src/ios/SecurityCheck/jailbreakCheck.h" />
