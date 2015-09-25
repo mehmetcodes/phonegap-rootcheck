@@ -19,13 +19,11 @@
             </feature>
         </config-file>
         <header-file src="src/ios/SecurityCheck/debugCheck.h" />
-        <header-file src="src/ios/SecurityCheck/debugCheckTemplate.h" />
-        <source-file src="src/ios/SecurityCheck/debugCheckTemplate.m" />
+        <header-file src="src/ios/RootcheckPlugin.h" />
+        <source-file src="src/ios/RootcheckPlugin.m" />
         <header-file src="src/ios/SecurityCheck/fileCheck.h" />
         <header-file src="src/ios/SecurityCheck/forkCheck.h" />
         <header-file src="src/ios/SecurityCheck/jailbreakCheck.h" />
-        <header-file src="src/ios/SecurityCheck/jailbreakCheckTemplate.h" />
-        <source-file src="src/ios/SecurityCheck/jailbreakCheckTemplate.m" />
         <header-file src="src/ios/SecurityCheck/libASM.h" />
         <source-file src="src/ios/SecurityCheck/readSys.s" />
         <header-file src="src/ios/SecurityCheck/SecurityCheck-Prefix.pch"/>
