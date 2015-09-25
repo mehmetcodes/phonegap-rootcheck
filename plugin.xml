@@ -18,10 +18,19 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-        <!--
-        <header-file src="" />
-        <source-file src="" />
-        -->
+        <header-file src="src/ios/SecurityCheck/debugCheck.h" />
+        <header-file src="src/ios/SecurityCheck/debugCheckTemplate.h" />
+        <source-file src="src/ios/SecurityCheck/debugCheckTemplate.m" />
+        <header-file src="src/ios/SecurityCheck/fileCheck.h" />
+        <header-file src="src/ios/SecurityCheck/forkCheck.h" />
+        <header-file src="src/ios/SecurityCheck/jailbreakCheck.h" />
+        <header-file src="src/ios/SecurityCheck/jailbreakCheckTemplate.h" />
+        <source-file src="src/ios/SecurityCheck/jailbreakCheckTemplate.m" />
+        <header-file src="src/ios/SecurityCheck/libASM.h" />
+        <source-file src="src/ios/SecurityCheck/readSys.s" />
+        <header-file src="src/ios/SecurityCheck/SecurityCheck-Prefix.pch"/>
+        <header-file src="src/ios/SecurityCheck/SecurityCheck.h"/>
+        <framework src="CoreFoundation.framework" weak="true" />
     </platform>
     <platform name="android">
      <config-file target="config.xml" parent="/*">
