@@ -13,8 +13,8 @@
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="RootDetection">
-                <param name="ios-package" value="rootdetection" />
+            <feature name="RootCheckPlugin">
+                <param name="ios-package" value="RootCheckPlugin" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
