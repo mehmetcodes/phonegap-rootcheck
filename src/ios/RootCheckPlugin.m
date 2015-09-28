@@ -3,6 +3,10 @@
 #import "RootcheckPlugin.h"
 
 @implementation RootCheckPlugin
+//--------------------------------
+// Callback block from checks
+//--------------------------------
+typedef void (^cbBlock) (void);
 
 -(void)Rootcheck:(CDVInvokedUrlCommand*)command
 {
